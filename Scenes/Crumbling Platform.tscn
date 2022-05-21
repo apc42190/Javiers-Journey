@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Animations/Crumbling_Platform.res" type="SpriteFrames" id=1]
+[ext_resource path="res://Scripts/Crumbling Platform.gd" type="Script" id=2]
+
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 4, 0.5 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 4, 0.5 )
+
+[node name="Crumbling Platform" type="StaticBody2D"]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -3.5 )
+shape = SubResource( 1 )
+one_way_collision = true
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = ExtResource( 1 )
+animation = "Reform"
+frame = 8
+playing = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 0, -3.6 )
+shape = SubResource( 2 )
+one_way_collision = true
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

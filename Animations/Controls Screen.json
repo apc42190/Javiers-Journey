@@ -1,0 +1,85 @@
+{ "frames": [
+   {
+    "filename": "Controls Screen 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 1.aseprite",
+    "frame": { "x": 160, "y": 0, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 2.aseprite",
+    "frame": { "x": 320, "y": 0, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 3.aseprite",
+    "frame": { "x": 0, "y": 90, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 4.aseprite",
+    "frame": { "x": 160, "y": 90, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 5.aseprite",
+    "frame": { "x": 320, "y": 90, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 6.aseprite",
+    "frame": { "x": 0, "y": 180, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   },
+   {
+    "filename": "Controls Screen 7.aseprite",
+    "frame": { "x": 160, "y": 180, "w": 160, "h": 90 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 160, "h": 90 },
+    "sourceSize": { "w": 160, "h": 90 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.21-dev",
+  "image": "Controls Screen.png",
+  "format": "RGBA8888",
+  "size": { "w": 480, "h": 270 },
+  "scale": "1",
+  "frameTags": [
+  ]
+ }
+}

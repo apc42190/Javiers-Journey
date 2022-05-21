@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Grass and Dirt Tileset.tres" type="TileSet" id=1]
+
+[node name="Moving Platform" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 8, 8 )
+cell_quadrant_size = 4
+cell_custom_transform = Transform2D( 8, 0, 0, 8, 0, 0 )
+collision_use_kinematic = true
+format = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
