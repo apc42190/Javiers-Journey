@@ -1,6 +1,7 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Scenes/Grass and Dirt Tileset.tres" type="TileSet" id=1]
+[ext_resource path="res://Tiles/Tilesets/Grass and Dirt Tileset.tres" type="TileSet" id=1]
+
 
 [node name="Moving Platform" type="Node2D"]
 
