@@ -6,7 +6,7 @@
 [ext_resource path="res://Tiles/Spikes/Pink_Spike_Corner.png" type="Texture" id=4]
 
 [sub_resource type="ConvexPolygonShape2D" id=5]
-points = PoolVector2Array( 0, 8, 0, 2.22386, 1.30437, 0.87166, 2.4943, 4.00876, 4.49555, 0, 8, 3.95467, 8, 8, 0, 8 )
+points = PoolVector2Array( 0, 8, 0, 2.22386, 1.30437, 0.87166, 2.4943, 4.00876, 4.29997, 0.701607, 8, 3.95467, 8, 8, 0, 8 )
 
 [sub_resource type="ConvexPolygonShape2D" id=7]
 points = PoolVector2Array( 0, 8, 0, 0, 8, 0, 8, 4, 4, 8 )

@@ -6,7 +6,7 @@
 [ext_resource path="res://Tiles/Spikes/Purple_Spike_Filler.png" type="Texture" id=4]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
-points = PoolVector2Array( 0, 8, 0, 4, 2, 2, 2, 4, 4, 0, 8, 4, 8, 8 )
+points = PoolVector2Array( 0, 8, 0, 4, 2, 2, 2, 4, 4.08448, 0.735844, 8, 4, 8, 8 )
 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 0, 8, 0, 6, 4, 8 )
