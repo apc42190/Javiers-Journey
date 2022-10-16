@@ -41,22 +41,34 @@ __meta__ = {
 [node name="Clouds" type="ParallaxLayer" parent="ParallaxBackground"]
 position = Vector2( 100, 26 )
 motion_scale = Vector2( 0.4, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/Clouds"]
 position = Vector2( 513, -41 )
 texture = ExtResource( 12 )
 region_enabled = true
 region_rect = Rect2( 0, 0, 5120, 512 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Clouds2" type="ParallaxLayer" parent="ParallaxBackground"]
 position = Vector2( 100, 26 )
 motion_scale = Vector2( 0.4, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/Clouds2"]
-position = Vector2( 513, -41 )
+position = Vector2( 489, 26 )
 texture = ExtResource( 12 )
 region_enabled = true
 region_rect = Rect2( 0, 0, 5120, 512 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Cave" type="ParallaxLayer" parent="ParallaxBackground"]
 position = Vector2( 101, -7 )
