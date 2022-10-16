@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Jump-SoundBible.com-1007297584.mp3-6404a3b2620826c3c4c7bc1aabcebf5b.mp3str"
+
+[deps]
+
+source_file="res://Music/Jump-SoundBible.com-1007297584.mp3"
+dest_files=[ "res://.import/Jump-SoundBible.com-1007297584.mp3-6404a3b2620826c3c4c7bc1aabcebf5b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

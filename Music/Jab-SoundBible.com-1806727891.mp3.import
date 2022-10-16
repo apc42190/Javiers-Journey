@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Jab-SoundBible.com-1806727891.mp3-bd743bfd7120880d1092e3113c1e97d4.mp3str"
+
+[deps]
+
+source_file="res://Music/Jab-SoundBible.com-1806727891.mp3"
+dest_files=[ "res://.import/Jab-SoundBible.com-1806727891.mp3-bd743bfd7120880d1092e3113c1e97d4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

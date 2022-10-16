@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Music/Aaron Game.wav" type="AudioStream" id=1]
+[ext_resource path="res://Music/bg_track.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Scripts/Audio.gd" type="Script" id=4]
+
+[node name="Audio" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Main Background" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -80.0
+
+[node name="Duty Free Baby" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -10.0
+
+[node name="Tween_Out" type="Tween" parent="."]
+
+[node name="Tween_In" type="Tween" parent="."]

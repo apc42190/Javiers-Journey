@@ -1,0 +1,87 @@
+{ "frames": [
+   {
+    "filename": "bear 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 1.aseprite",
+    "frame": { "x": 8, "y": 0, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 2.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 3.aseprite",
+    "frame": { "x": 16, "y": 0, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 4.aseprite",
+    "frame": { "x": 0, "y": 13, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 5.aseprite",
+    "frame": { "x": 8, "y": 13, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 6.aseprite",
+    "frame": { "x": 0, "y": 13, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   },
+   {
+    "filename": "bear 7.aseprite",
+    "frame": { "x": 16, "y": 13, "w": 8, "h": 13 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 8, "h": 13 },
+    "sourceSize": { "w": 8, "h": 13 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.21-dev",
+  "image": "bear.png",
+  "format": "RGBA8888",
+  "size": { "w": 24, "h": 26 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Normal", "from": 0, "to": 3, "direction": "forward" },
+   { "name": "Angry", "from": 4, "to": 7, "direction": "forward" }
+  ]
+ }
+}

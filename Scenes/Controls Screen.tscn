@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Animations/Controls Screen.res" type="SpriteFrames" id=1]
+[ext_resource path="res://Scripts/Controls Screen.gd" type="Script" id=2]
+[ext_resource path="res://UI Elements/x_button.png" type="Texture" id=3]
+[ext_resource path="res://UI Elements/x_button_pressed.png" type="Texture" id=4]
+
+[node name="Controls Screen" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 80, 45 )
+frames = ExtResource( 1 )
+playing = true
+
+[node name="X" type="TextureButton" parent="."]
+margin_left = 151.0
+margin_top = 2.0
+margin_right = 158.0
+margin_bottom = 9.0
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="X" to="." method="_on_X_pressed"]

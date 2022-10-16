@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Animations/little_dude.res" type="SpriteFrames" id=1]
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
+[ext_resource path="res://Music/Jump-SoundBible.com-1007297584.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Music/Mario_Jumping-Mike_Koenig-989896458.mp3" type="AudioStream" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 2.5, 3.5 )
+
+[node name="Player" type="KinematicBody2D" groups=["Player"]]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = ExtResource( 1 )
+animation = "Idle"
+playing = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 1.15, 1.15 )
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+smoothing_speed = 10.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 1.5, 0.5 )
+scale = Vector2( 0.95, 1 )
+shape = SubResource( 1 )
+
+[node name="Sound_Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -12.0
+
+[node name="Sound_Double_Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -12.0

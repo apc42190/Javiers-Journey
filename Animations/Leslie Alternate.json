@@ -1,0 +1,135 @@
+{ "frames": [
+   {
+    "filename": "Leslie Alternate 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 100
+   },
+   {
+    "filename": "Leslie Alternate 1.aseprite",
+    "frame": { "x": 9, "y": 0, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 100
+   },
+   {
+    "filename": "Leslie Alternate 2.aseprite",
+    "frame": { "x": 18, "y": 0, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 100
+   },
+   {
+    "filename": "Leslie Alternate 3.aseprite",
+    "frame": { "x": 27, "y": 0, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 100
+   },
+   {
+    "filename": "Leslie Alternate 4.aseprite",
+    "frame": { "x": 0, "y": 9, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 200
+   },
+   {
+    "filename": "Leslie Alternate 5.aseprite",
+    "frame": { "x": 9, "y": 9, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 100
+   },
+   {
+    "filename": "Leslie Alternate 6.aseprite",
+    "frame": { "x": 18, "y": 9, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 200
+   },
+   {
+    "filename": "Leslie Alternate 7.aseprite",
+    "frame": { "x": 27, "y": 9, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 75
+   },
+   {
+    "filename": "Leslie Alternate 8.aseprite",
+    "frame": { "x": 0, "y": 18, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 75
+   },
+   {
+    "filename": "Leslie Alternate 9.aseprite",
+    "frame": { "x": 9, "y": 18, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 75
+   },
+   {
+    "filename": "Leslie Alternate 10.aseprite",
+    "frame": { "x": 18, "y": 18, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 75
+   },
+   {
+    "filename": "Leslie Alternate 11.aseprite",
+    "frame": { "x": 27, "y": 18, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 75
+   },
+   {
+    "filename": "Leslie Alternate 12.aseprite",
+    "frame": { "x": 0, "y": 27, "w": 9, "h": 9 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 9, "h": 9 },
+    "sourceSize": { "w": 9, "h": 9 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.21-dev",
+  "image": "Leslie Alternate.png",
+  "format": "RGBA8888",
+  "size": { "w": 36, "h": 36 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "Idle", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Running", "from": 1, "to": 3, "direction": "pingpong" },
+   { "name": "Jump Up", "from": 4, "to": 6, "direction": "forward" },
+   { "name": "Fall Down", "from": 7, "to": 11, "direction": "forward" },
+   { "name": "Sliding", "from": 12, "to": 12, "direction": "forward" }
+  ]
+ }
+}
