@@ -21,5 +21,3 @@ animation = "Idle"
 position = Vector2( 117.5, 45.5 )
 frames = ExtResource( 2 )
 animation = "Idle"
-
-[connection signal="tree_exiting" from="." to="." method="_on_Character_Select_Screen_tree_exiting"]

@@ -31,9 +31,6 @@ func _process(delta):
 				the_girl.frames = the_girl_frames
 				GlobalVariables.character = the_girl_frames
 	if Input.is_action_just_pressed("jump"):
-			get_tree().change_scene("res://Scenes/Level_1.tscn")
-
-
-func _on_Character_Select_Screen_tree_exiting():
-	Audio.fade_out("Duty Free Baby")
-	Audio.fade_in("Main Background")
+		Audio.fade_out("Duty Free Baby")
+		Audio.fade_in("Main Background")
+		get_tree().change_scene("res://Scenes/Level_1.tscn")

@@ -7,6 +7,7 @@ onready var player = get_node("Player")
 
 func _ready():
 	player.global_position = Vector2(-55, 79)
+	player.last_checkpoint_location = player.global_position
 
 
 
