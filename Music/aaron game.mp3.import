@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/aaron game.mp3-9d939f4893a8710384bccf465b7d67fa.mp3str"
+
+[deps]
+
+source_file="res://Music/aaron game.mp3"
+dest_files=[ "res://.import/aaron game.mp3-9d939f4893a8710384bccf465b7d67fa.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
