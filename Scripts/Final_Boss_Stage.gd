@@ -20,11 +20,7 @@ func _process(delta):
 
 func move_clouds(delta):
 	clouds.motion_offset.x += 1 * delta
-	if clouds.motion_offset.x > 128:
-		clouds.motion_offset.x = 0
 	clouds_2.motion_offset.x += 2 * delta
-	if clouds_2.motion_offset.x > 128:
-		clouds_2.motion_offset.x = 0
 
 
 func _on_End_Game_body_entered(body):
